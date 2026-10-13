@@ -279,7 +279,7 @@ Esta seção ajuda a explicar os algoritmos no texto do artigo. Nenhum dos méto
 | Período coberto por Lima et al. 2022 (R$ 2,3 bilhões) | [SciELO SP](https://scielosp.org/pdf/ress/2022.v31n1/e2021603/pt) | conferir |
 | Autoria da revisão Frontiers 2022 | [Frontiers](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2022.996021/full) | autores não confirmados |
 | Yu et al. 2023, citado por Duan | referência no PDF de Duan | não localizado nesta pesquisa; ler antes de citar |
-| Pesos de classe de Duan (0,8 ADL / 0,2 queda) | [Duan 2026](https://doi.org/10.14716/ijtech.v17i3.8445) | lido no PDF; confirmar a qual classe se refere |
+| Pesos de classe de Duan (0,8 ADL / 0,2 queda) | [Duan 2026](https://doi.org/10.14716/ijtech.v17i3.8445) | lido no PDF (p. 924–925); escolha intencional, explicada pelos autores |
 
 ## Conclusão
 
