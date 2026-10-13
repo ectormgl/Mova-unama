@@ -1,0 +1,99 @@
+{
+  "orientacao": {
+    "MobiFall": {
+      "mediana_g": 1.008873625849187,
+      "gravidade_xyz": [
+        -0.02,
+        0.98,
+        0.0
+      ],
+      "desvio_medio_graus": 26.073698097339488
+    },
+    "SisFall": {
+      "mediana_g": 0.9971979937550735,
+      "gravidade_xyz": [
+        0.02,
+        -0.98,
+        -0.08
+      ],
+      "desvio_medio_graus": 15.24309593584724
+    }
+  },
+  "pipto_erros": 0,
+  "params_ajustados": {
+    "SisFall|Kangas": {
+      "inicio": 0.8,
+      "svtot": 2.0,
+      "svd": 1.7,
+      "maxmin": 2.0,
+      "z2": 1.5,
+      "jan_impacto": 1.0,
+      "atraso_postura": 2.0,
+      "jan_postura": 0.4,
+      "deitado": 0.5,
+      "refratario": 10.0
+    },
+    "SisFall|Bourke3": {
+      "lft": 0.65,
+      "uft": 1.8,
+      "tfe": 0.6,
+      "tre": 0.35,
+      "v_th": -0.7,
+      "post0": 1.0,
+      "post1": 3.0,
+      "angulo": 60.0,
+      "frac": 0.75,
+      "lookback": 1.0,
+      "jan_grav": 0.5,
+      "usar_bordas": true
+    },
+    "MobiFall|Kangas": {
+      "inicio": 0.8,
+      "svtot": 2.0,
+      "svd": 1.7,
+      "maxmin": 2.0,
+      "z2": 1.5,
+      "jan_impacto": 1.0,
+      "atraso_postura": 2.0,
+      "jan_postura": 0.4,
+      "deitado": 0.5,
+      "refratario": 10.0
+    },
+    "MobiFall|Bourke3": {
+      "lft": 0.8,
+      "uft": 1.8,
+      "tfe": 0.6,
+      "tre": 0.35,
+      "v_th": -0.7,
+      "post0": 1.0,
+      "post1": 3.0,
+      "angulo": 60.0,
+      "frac": 0.75,
+      "lookback": 1.0,
+      "jan_grav": 0.5,
+      "usar_bordas": true
+    }
+  },
+  "config": {
+    "FS": 50,
+    "CLIP_G": 8.0,
+    "EPOCAS": 25,
+    "BATCH": 64,
+    "N_FOLDS": 5,
+    "N_SEMENTES": 3,
+    "PESO_CLASSE": {
+      "0": 0.8,
+      "1": 0.2
+    },
+    "DIRECOES": [
+      [
+        "SisFall",
+        "MobiFall"
+      ],
+      [
+        "MobiFall",
+        "SisFall"
+      ]
+    ]
+  }
+}
