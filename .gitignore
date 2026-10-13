@@ -39,3 +39,10 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# estudo em Python (notebooks/)
+notebooks/data/
+notebooks/data_demo/
+notebooks/vendor/
+notebooks/results/
+.ipynb_checkpoints/
